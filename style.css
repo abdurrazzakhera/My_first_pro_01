@@ -11,7 +11,6 @@ body {
   width: 1200px;
   height: auto;
   font-family: "Roboto", sans-serif;
-  border: 1px solid black;
   margin: 0 auto;
 }
 .navber ul {
@@ -65,21 +64,23 @@ body {
 }
 .project_section {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 156px;
 }
 .project_list {
   margin-top: 60px;
   width: 340px;
   height: 340px;
-  border: 1px solid;
+  /* border: 1px solid; */
   justify-content: center;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 18px -4px grey;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .project_list img {
   width: 95%;
   margin: 2%;
+  box-shadow: 0 0 5px gray;
+  border-radius: 15px;
 }
 .project_list p {
   margin-top: 20px;
@@ -91,4 +92,47 @@ body {
 .all_division {
   display: flex;
   justify-content: space-around;
+  margin-top: 8px;
+}
+
+.banner {
+  margin: 200px auto 50px;
+  width: 850px;
+  height: 210px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(shapes/Group_33094_1.png);
+  background-size: cover;
+}
+.banner h2 {
+  color: white;
+  font-size: 60px;
+  float: left;
+  margin: 69px 59px;
+}
+.banner a {
+  float: right;
+  margin-right: 58px;
+  margin-top: 90px;
+  font-size: 18px;
+}
+.foot_section {
+  text-align: center;
+  margin-bottom: 77px;
+}
+.foot_section h2 {
+  color: #696871;
+  font-size: 22px;
+  margin-bottom: 9px;
+}
+.foot_section a {
+  text-decoration: none;
+  color: #44434c;
+  font-size: 34px;
+  font-family: cursive;
+  font-weight: 600;
+}
+.social img {
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 6px; /* display: block; */
 }
