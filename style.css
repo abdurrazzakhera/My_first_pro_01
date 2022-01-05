@@ -13,6 +13,9 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
 }
+.navber {
+  margin: 20px 0;
+}
 .navber ul {
   list-style-type: none;
   text-align: right;
@@ -23,9 +26,11 @@ body {
 }
 .navber a {
   text-decoration: none;
-  color: black;
+  color: rgb(82, 78, 78);
   display: block;
   padding: 10px 20px;
+  font-weight: 700;
+  font-size: 14px;
 }
 .flex_item {
   display: flex;
@@ -134,5 +139,6 @@ body {
 .social img {
   width: 40px;
   margin-left: 20px;
+  cursor: pointer;
   margin-top: 6px; /* display: block; */
 }
